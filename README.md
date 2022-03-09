@@ -19,3 +19,21 @@ Nome: Thiago slovak silva mestriniere belordi.
 - GIT CHECKOUT -> Usado para navegar entre as branchs.
 
 - GIT PUSH -> Usado para enviar as suas alterações do repositório local, para o repositório remoto.
+
+  
+
+## GIT FLOW :man_teacher:
+
+É um conceito de como deve ser feito o gerenciamento de branchs. É recomendado que se tenha num projeto as branchs:
+
+- Master -> Branch onde fica o código que está em produção.
+
+- Hotfix -> Branch criada quando se tem a necessidade de fazer uma correção rápida.
+
+- Release -> Branch onde segue a versão atual.
+
+- Develop -> Branch onde os desenvolvedores trabalhão.
+
+- Feature -> Branch de novas funcionalidades.
+
+  
