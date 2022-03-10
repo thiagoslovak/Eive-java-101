@@ -8,6 +8,13 @@ public class FeedBack {
 	private String content;
 	private boolean isRead;
 	
+	public FeedBack(Collaborator from, Collaborator to, String content) {
+		this.from = from;
+		this.to = to;
+		this.content = content;
+		this.createdAt.now();
+	}
+	
 	public void markAsRead() {
 		this.isRead = true;
 	}
